@@ -55,7 +55,7 @@ public class MyActivity extends ActionBarActivity {
                 message = editText.getText().toString().toUpperCase();
                 break;
             default:
-                throw new RuntimeException("Unknow button ID");
+                throw new RuntimeException("Unknown button ID");
         }
 
         intent.putExtra(EXTRA_MESSAGE, message);
